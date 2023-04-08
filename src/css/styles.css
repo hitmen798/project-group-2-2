@@ -79,7 +79,6 @@
 @import url('./explore-decktop.css');
 
 :root {
-
   -black: #111111;
   -dark-purple-background-color: #1e1823;
   -orange: #fd9222;
@@ -89,12 +88,12 @@
   -background-point: rgba(17, 17, 17, 0.1);
   -background-color: #e2e2e2;
   -hero-gradient: linear-gradient(
-
     180deg,
     rgba(17, 17, 17, 0) 0%,
     rgba(17, 17, 17, 0.4) 100%
   );
-  /* font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+}
+/* font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
