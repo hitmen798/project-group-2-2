@@ -79,6 +79,7 @@
 @import url('./explore-decktop.css');
 
 :root {
+
   -black: #111111;
   -dark-purple-background-color: #1e1823;
   -orange: #fd9222;
@@ -88,6 +89,7 @@
   -background-point: rgba(17, 17, 17, 0.1);
   -background-color: #e2e2e2;
   -hero-gradient: linear-gradient(
+
     180deg,
     rgba(17, 17, 17, 0) 0%,
     rgba(17, 17, 17, 0.4) 100%
@@ -105,14 +107,3 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%; */
-}
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  padding: 0;
-  overflow: hidden;
-  border: 0;
-  clip: rect(0 0 0 0);
-}
