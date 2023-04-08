@@ -32,11 +32,38 @@
     transform: translate(0, 0);
 }
 
+
+
 .unique-components-btn-one{
+    background-color: orange;
+    color: #FAFAFA;
+    border: 1px solid #FD9222;
+    border-radius: 15px;
+
 }
 
 .unique-components-btn-two {
+    background-color: #FAFAFA;
+    color: #111111;
+    border: 1px solid #FD9222;
+    border-radius: 15px;
+}
 
+.overlay-text-one{
+    Font-family: Montserrat;
+    Font-style: Regular;
+    Font-size: 10px;
+    Line-height: 12px;
+    Line-height: 98%;
+    Align: Left;
+    Vertical-align: Center;
+}
+.overlay-text-two{
+    Font-family: Montserrat;
+    Font-style: Regular;
+    Font-size: 10px;
+    Line-height: 12px;
+    Line-height: 98%;
 }
 
 .overlay-header {
