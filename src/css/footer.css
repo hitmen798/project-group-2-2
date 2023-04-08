@@ -1,0 +1,70 @@
+.footer {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  background-color: #1e1823;
+}
+.footer-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  margin-bottom: 32px;
+
+  max-width: 100%;
+  width: 300px;
+  height: 56px;
+  text-align: left;
+}
+.footer-title-two {
+  color: #fd9222;
+}
+.footer-contacts {
+}
+.footer-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  text-align: left;
+  color: #ffffff;
+  margin-bottom: 14px;
+}
+.footer-address {
+}
+.footer-address-list {
+}
+.footer-mail {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  text-align: left;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+.footer-tel {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  text-align: left;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+.footer-social {
+}
+.footer-social-list {
+}
+.footer-social-item {
+}
+.footer-social-link {
+}
+.footer-icon {
+}
+.footer-menu {
+}
+.footer-menu-list {
+}
+.footer-menu-item {
+}
+.footer-menu-link {
+}
