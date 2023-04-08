@@ -32,12 +32,24 @@
   /* justify-content: flex-start; */
   gap: 18px;
 }
+.our-products-card-item {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 32px 0px;
+  text-align: center;
+
+  width: 333px;
+  height: 298px;
+  background: #ffffff;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  border-radius: 15px;
+}
 .our-products-card {
   padding: 32px 0px;
   text-align: center;
 
-  width: 335px;
-  height: 300px;
+  width: 268px;
+  height: 298px;
 
   background: #ffffff;
   border: 1px solid rgba(17, 17, 17, 0.1);
