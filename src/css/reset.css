@@ -1,4 +1,3 @@
-/* Reset styles */
 :root {
   --primary-text-color: #111111;
   --dark-purple-background-color: #1e1823;
@@ -54,4 +53,3 @@ body {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
