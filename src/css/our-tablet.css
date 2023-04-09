@@ -2,10 +2,11 @@
   .container {
     max-width: 768px;
   }
+  .section-our-products {
+    margin-bottom: 100px;
+  }
   .swiper {
     display: block;
-    /* width: 335px; */
-    height: 397px;
   }
   .our-products-card-item {
     display: none;
