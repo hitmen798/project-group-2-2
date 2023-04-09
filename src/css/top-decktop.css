@@ -1,0 +1,11 @@
+@media screen and (min-width: 1200px) {
+    .container {
+        max-width: 1136px;
+    }
+    .sellers-text-second{
+        
+        width: 407px;
+        height: 72px;
+    }
+    
+}
