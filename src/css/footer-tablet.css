@@ -1,9 +1,14 @@
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 768px;
+    max-width: 704px;
   }
+
   .footer {
     padding: 50px 32px;
+  }
+  .footer-title {
+    font-size: 28px;
+    line-height: 1.21;
   }
   .footer-nav {
     display: flex;
@@ -13,13 +18,9 @@
   .footer-social {
     margin-left: 50px;
   }
-  .footer-social-link {
-    transition-property: fill;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  .footer-social-link:is(:hover, :focus) {
-    fill: #fd9222;
+  .footer-line {
+    margin-top: 50px;
+    margin-bottom: 24px;
   }
   .footer-menu-list {
     display: flex;
@@ -29,6 +30,9 @@
   }
   .footer-menu-list .footer-menu-item:not(:last-child) {
     margin-bottom: 0;
+  }
+  .footer-social-list {
+    gap: 18px;
   }
   .footer-icon {
     width: 22px;
