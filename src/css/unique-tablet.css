@@ -65,29 +65,29 @@
 
 .overlay-header {
     font-family: 'Montserrat';
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 22px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
 /* identical to box height */
 
-letter-spacing: -0.03em;
-text-transform: uppercase;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
 
-color: #111111;
+    color: #111111;
 }
 
 .overlay-paragraph{
     font-family: 'Montserrat';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 18px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
 /* or 129% */
 
-letter-spacing: -0.02em;
+    letter-spacing: -0.02em;
 
-color: #111111;
+    color: #111111;
 }
 
 
@@ -114,22 +114,22 @@ color: #111111;
 
 .unique-components-font-style {
     font-family: 'Montserrat';
-font-style: normal;
-font-weight: 600;
-font-size: 24px;
-line-height: 28px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
 /* or 117% */
 
-text-align: center;
-letter-spacing: -0.03em;
-text-transform: uppercase;
+    text-align: center;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
 
-color: #111111;
+    color: #111111;
 
 }
 .unique-components-paragraph-font-style {
     font-family: 'Montserrat';
-font-style: normal;
+    font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 18px;
