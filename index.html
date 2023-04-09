@@ -23,7 +23,7 @@
     />
     
     <script type="module" crossorigin src="/project-group-2-2/assets/index-debf9ab4.js"></script>
-    <link rel="stylesheet" href="/project-group-2-2/assets/index-2e1dad07.css">
+    <link rel="stylesheet" href="/project-group-2-2/assets/index-ad197323.css">
   </head>
   <body>
     
@@ -491,7 +491,73 @@
   </body>
 </html>
 
-    
+    <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscribe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,700&family=Roboto&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="/src/css/subscribe.css">
+    <link rel="stylesheet" href="/src/css/subscribe-tel.css">
+    <link rel="stylesheet" href="/src/css/subscribe-tablet.css">
+    <link rel="stylesheet" href="src/css/subscribe-dektop.css">
+
+</head>
+
+<body>
+    <section class="subscribe">
+        <div class="container subscribe-content">
+            <h1 class="subscribe-tittle">EXPLORE OUR NEW CHOCOLATE FIRST</h1>
+            <p class="subscribe-subtitle">
+                From the velvety texture to the rich and complex flavor, our New Chocolate is a true indulgence that
+                will leave you
+                craving more. Made with only the finest ingredients and handcrafted with the utmost care, each piece is
+                a work of art
+                that is sure to please.</p>
+            <button type="submit" class="subscribe-btn-submit" data-modal-open>Subscribe</button>
+        </div>
+
+    </section>
+    <div class="backdrop is-hidden" data-modal>
+        <div class="sub-modal">
+            <button type="button" class="sub-modal-close-btn" data-modal-close>
+                <svg class="sub-modal-close-icon" width="14px" height="14px">
+                    <use href="/project-group-2-2/assets/sprait-55f6dc58.svg#icon-x"></use>
+                </svg>
+            </button>
+            <img class="sub-modal-img" srcset="/project-group-2-2/assets/chocolate@2x-967cca90.jpg 2x, /project-group-2-2/assets/chocolate@x1-7b028c79.jpg 1x"
+                src="./img/desktop-img/chocolate@x2.jpg" alt="">
+            <form class="sub-modal-form container-sm">
+                <h1 class="sub-modal-form-title">EXPLORE OUR <br> <span class="sub-modal-title-orange">NEW
+                        CHOCOLATE</span> FIRST!</h1>
+                </label>
+                <span class="sub-modal-input-btn">
+                    <label class="sub-modal-form-field">
+                        <input type="email"
+                            name="user_email"
+                            class="sub-modal-form-input"
+                            placeholder="Enter your email" required>
+                    </label>
+                        <button type="submit" class="sub-modal-form-submit">Submit</button>
+                    </span>
+            </form>
+        </div>
+    </div>
+
+    <script src="./js/modal.js"></script>
+</body>
+
+</html>
     <footer class="footer">
     <div class="container">
         <h2 class="footer-title"><span class="footer-title-two">Chocolate </span>a delicious cure for a bad day</h2>
