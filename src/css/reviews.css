@@ -56,39 +56,118 @@ body {
 
 /* Reviews */
 .reviews {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  background: var(--white);
+  text-align: center;
 }
 .container {
 }
+
 .reviews-container {
+  padding: 128px 0;
 }
 .reviews-title {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+
+  color: #111111;
 }
-.chocolate-title {
+.chokolate-title {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  color: #fd9222;
+}
+.reviews-pack {
+  width: 360px;
+  height: 242px;
+}
+.reviews-item {
+  margin-left: 57px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 18px;
+
+  position: absolute;
+  width: 200px;
+  height: 122px;
 }
 .reviews-container-two {
 }
 .reviews-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 50px;
 }
-
 .reviews-item {
+}
+.test-puck {
+  box-sizing: border-box;
+  margin-top: 42px;
+  width: 360px;
+  height: 242px;
+
+  background: #ffffff;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  box-shadow: 0px 9.04932px 26.5717px rgba(215, 228, 249, 0.25);
+  border-radius: 15px;
 }
 .reviews-subject {
 }
 .reviews-text {
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-top: 104px;
+  margin-bottom: 42px;
 }
 .review-button {
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: flex-start;
+  margin-top: 0;
+  margin-bottom: 0;
+
   padding: 14px 40px;
-  gap: 14px;
-  width: 222px;
-  height: 50px;
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  color: #111111;
+  background-color: #ffffff;
   border: 1px solid #fd9222;
   border-radius: 100px;
-  flex: none;
-  order: 2;
-  flex-grow: 0;
+  color: #111111;
+  transition-duration: 1250ms;
+  transition-timing-function: var(--cubic);
+}
+.review-button:hover {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  background-color: var(--orange);
+
+  color: #ffffff;
 }
