@@ -252,7 +252,7 @@
     mix-blend-mode: normal;
 }
 .unique-components-list:active .overlay {
-    transform: translate(0, 0);
+    transform: translate(0%, -100%);
 }
 
 
