@@ -15,7 +15,7 @@
         align-items: center;
         padding: 0px;
         gap: 50px;
-        overflow: hidden;
+        /* overflow: hidden; */
     }
     
     .unique-components-texts{
