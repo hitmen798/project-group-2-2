@@ -1,0 +1,36 @@
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 704px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .sellers-text-first {
+    display: none;
+  }
+  .sellers-text-second {
+    margin-top: 32px;
+    width: 306px;
+    height: 90px;
+  }
+  .sellers-wrap {
+    display: flex;
+    justify-content: space-between;
+  }
+  .sellers-list{
+    justify-content: space-between;
+  }
+ 
+    .sellers-btn {
+        justify-content: center;
+        width: 162px;
+        height: 50px;
+        margin-top: 32px;
+        background: #FD9222;
+        border-radius: 100px;
+  }  
+}
+@media screen and (max-width: 1199px) {
+  .sellers-list .content {
+    display: none;
+  }
+}
