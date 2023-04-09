@@ -1,0 +1,37 @@
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+  .footer {
+    padding: 50px 32px;
+  }
+  .footer-nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer-social {
+    margin-left: 50px;
+  }
+  .footer-social-link {
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .footer-social-link:is(:hover, :focus) {
+    fill: #fd9222;
+  }
+  .footer-menu-list {
+    display: flex;
+  }
+  .footer-menu-list .footer-menu-item:not(:last-child) {
+    margin-right: 24px;
+  }
+  .footer-menu-list .footer-menu-item:not(:last-child) {
+    margin-bottom: 0;
+  }
+  .footer-icon {
+    width: 22px;
+    height: 22px;
+  }
+}
