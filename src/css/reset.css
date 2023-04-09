@@ -34,6 +34,7 @@ body {
   letter-spacing: -0.02em;
   font-size: 14px;
   line-height: 1.29;
+  margin: 0;
 }
 .container {
   width: 100%;
