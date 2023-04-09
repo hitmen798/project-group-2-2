@@ -146,12 +146,12 @@ color: #111111;
 
 
 .unique-components-ul {
-    /* display: flex;
+    display: flex;
 flex-direction: column;
 align-items: flex-start;
 padding: 0px;
 gap: 32px;
-     */
+    
 }
 .unique-components-list {
     width: calc((100% - 32px) / 2);
@@ -191,6 +191,10 @@ height: 270px;
 background: #FFFFFF;
 border: 1px solid #FD9222;
 border-radius: 15px;
+}
+
+.unique-components-img-prop {
+
 }
 
 .unique-components-chocolate-text {

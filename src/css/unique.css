@@ -208,6 +208,8 @@ color: #111111;
 
 
 .unique-components-ul {
+    display: grid;
+    gap: 20px;
 }
 .unique-components-list {
 }
@@ -244,6 +246,11 @@ height: 270px;
 background: #FFFFFF;
 border: 1px solid #FD9222;
 border-radius: 15px;
+}
+
+
+.unique-components-img-prop {
+
 }
 
 .unique-components-chocolate-text {
