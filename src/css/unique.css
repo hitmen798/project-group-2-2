@@ -68,7 +68,168 @@
 
 
 
-  .overlay {
+
+
+
+
+.unique-components {
+    padding-top: 72px;
+    padding-bottom: 72px;
+}
+.unique-components-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+}
+
+.unique-components-texts{
+    gap: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.unique-components-font-style {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+/* or 120% */
+
+    text-align: center;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+
+    color: #111111;
+
+}
+.unique-components-paragraph-font-style {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+/* or 129% */
+
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #111111;
+}
+
+
+
+
+
+
+
+.unique-components-ul {
+    display: grid;
+    gap: 20px;
+}
+.unique-components-list {
+    width: 335px;
+    height: 270px;
+}
+
+.milk-chocolate {
+    width: 335px;
+    height: 270px;
+
+    background: #FD9222;
+    border-radius: 15px;
+}
+.milk {
+    box-sizing: border-box;
+    width: 335px;
+    height: 270px;
+
+    background: #FFFFFF;
+    border: 1px solid #FD9222;
+    border-radius: 15px;
+}
+.nuts {
+    width: 335px;
+    height: 270px;
+
+    background: #1E1823;
+    border-radius: 15px;
+}
+.beans {
+    box-sizing: border-box;
+
+    width: 335px;
+    height: 270px;
+
+    background: #FFFFFF;
+    border: 1px solid #FD9222;
+    border-radius: 15px;
+}
+
+
+.unique-components-img-prop {
+
+}
+
+.unique-components-chocolate-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+/* identical to box height, or 129% */
+
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+.unique-components-milk-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+/* identical to box height, or 129% */
+
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+
+    color: #111111;
+}
+.unique-components-nuts-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+/* identical to box height, or 129% */
+
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+.unique-components-beans-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+/* identical to box height, or 129% */
+
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+
+    color: #111111;
+}
+
+
+.overlay {
     /* position: absolute; */
     /* left: 0;
     top: 0;
@@ -124,184 +285,27 @@
 
 .overlay-header {
     font-family: 'Montserrat';
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 22px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
 /* identical to box height */
 
-letter-spacing: -0.03em;
-text-transform: uppercase;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
 
-color: #111111;
+    color: #111111;
 }
 
 .overlay-paragraph{
     font-family: 'Montserrat';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 18px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
 /* or 129% */
 
-letter-spacing: -0.02em;
+    letter-spacing: -0.02em;
 
-color: #111111;
-}
-
-
-
-
-.unique-components {
-    padding-top: 72px;
-    padding-bottom: 72px;
-}
-.unique-components-container {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 32px;
-}
-
-.unique-components-texts{
-    gap: 24px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.unique-components-font-style {
-    font-family: 'Montserrat';
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 24px;
-/* or 120% */
-
-text-align: center;
-letter-spacing: -0.03em;
-text-transform: uppercase;
-
-color: #111111;
-
-}
-.unique-components-paragraph-font-style {
-    font-family: 'Montserrat';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 18px;
-/* or 129% */
-
-text-align: center;
-letter-spacing: -0.02em;
-
-color: #111111;
-}
-
-
-
-
-
-
-
-.unique-components-ul {
-    display: grid;
-    gap: 20px;
-}
-.unique-components-list {
-}
-
-.milk-chocolate {
-    width: 335px;
-height: 270px;
-
-background: #FD9222;
-border-radius: 15px;
-}
-.milk {
-    box-sizing: border-box;
-    width: 335px;
-height: 270px;
-
-background: #FFFFFF;
-border: 1px solid #FD9222;
-border-radius: 15px;
-}
-.nuts {
-    width: 335px;
-height: 270px;
-
-background: #1E1823;
-border-radius: 15px;
-}
-.beans {
-    box-sizing: border-box;
-
-width: 335px;
-height: 270px;
-
-background: #FFFFFF;
-border: 1px solid #FD9222;
-border-radius: 15px;
-}
-
-
-.unique-components-img-prop {
-
-}
-
-.unique-components-chocolate-text {
-    font-family: 'Montserrat';
-font-style: normal;
-font-weight: 600;
-font-size: 14px;
-line-height: 18px;
-/* identical to box height, or 129% */
-
-letter-spacing: -0.02em;
-text-transform: uppercase;
-
-color: #FFFFFF;
-}
-.unique-components-milk-text {
-    font-family: 'Montserrat';
-font-style: normal;
-font-weight: 600;
-font-size: 14px;
-line-height: 18px;
-/* identical to box height, or 129% */
-
-letter-spacing: -0.02em;
-text-transform: uppercase;
-
-color: #111111;
-}
-.unique-components-nuts-text {
-    font-family: 'Montserrat';
-font-style: normal;
-font-weight: 600;
-font-size: 14px;
-line-height: 18px;
-/* identical to box height, or 129% */
-
-letter-spacing: -0.02em;
-text-transform: uppercase;
-
-color: #FFFFFF;
-}
-.unique-components-beans-text {
-    font-family: 'Montserrat';
-font-style: normal;
-font-weight: 600;
-font-size: 14px;
-line-height: 18px;
-/* identical to box height, or 129% */
-
-letter-spacing: -0.02em;
-text-transform: uppercase;
-
-color: #111111;
+    color: #111111;
 }
