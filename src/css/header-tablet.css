@@ -1,0 +1,39 @@
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+        padding-left: 32px;
+        padding-right: 32px;
+
+    }
+
+    .mob-menu-open,
+    .head-logo {
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+
+    .mob-menu-open-svg {
+        width: 32px;
+        height: 32px;
+    }
+
+    .head-mob-menu {
+        width: 290px;
+    }
+
+    .head-mob-conteiner {
+        max-width: 100%;
+        padding: 24px 32px;
+    }
+
+    .head-mob-list {
+        margin-top: 132px;
+        margin-left: 53px;
+    }
+
+    .head-mob-soc-svg {
+        width: 24px;
+        height: 24px;
+    }
+
+}
