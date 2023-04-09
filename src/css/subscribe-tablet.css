@@ -1,0 +1,110 @@
+
+
+
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width: 1199px) {
+
+
+    .subscribe {
+        padding: 72px 0;
+        text-align: center;
+        background-image: url(../img/tablet-img/Subcribe-tablet.jpg);
+        background-color: rgba(0, 0, 0, 0.2);
+        background-size: cover;
+    }
+
+    @media screen and (min-device-pixel-ratio: 2) and (min-width:768px),
+    screen and (min-resolution: 192dpi) and (min-width:768px),
+    screen and (min-resolution: 2dppx) and (min-width:768px) {
+        .subscribe {
+            background-image: url(../img/tablet-img/Subcribe-tablet@2x.jpg);
+        }
+    }
+
+    .subscripe-title {
+        width: 291px;
+        height: 48px;
+        font-size: 20px;
+    }
+
+    .subscribe-subtitle {
+        width: 326px;
+    }
+
+    /*------------------------ mobile modal ---------------*/
+
+    .sub-modal-form {
+        margin: 40px 0;
+        padding: 0 40px;
+        }
+
+    .sub-modal-form-field {
+    }
+
+    .sub-modal-form-input {
+        margin-right: 0;
+    }
+
+    .sub-modal-form-submit {
+        position: static;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*----------- modal form --------------- */
+
+
+
+
+    .sub-modal-form-field {
+        position: inherit;
+    }
+
+
+    .sub-modal-input-btn {
+        display: flex;
+        gap: 8px;
+    }
+
+    .sub-modal-form-input {
+        width: 313px;
+        height: 52px;
+        border: 1px solid rgba(17, 17, 17, 0.05);
+        border-radius: 30px;
+        padding: 14px;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

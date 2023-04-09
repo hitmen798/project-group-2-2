@@ -1,0 +1,211 @@
+:root {
+    --primary-text-color: #111111;
+    --dark-purple-background-color: #1e1823;
+    --orange: #fd9222;
+    --white: #fafafa;
+    --pure-white-background: #ffffff;
+    --btn-light-orange: #fcf1e0;
+    --background-point: rgba(17, 17, 17, 0.1);
+    --background-color: #e2e2e2;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+/*--------------------- Subscribe -------------------------*/
+
+
+.subscribe {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 72px 0;
+    text-align: center;
+    background-image: url('../img/desktop-img/Subcribe-desk.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.subscribe-content {}
+
+.subscribe-tittle {
+    width: 378px;
+    height: 56px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.16;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin: 0 auto;
+}
+
+.subscribe-subtitle {
+    width: 467px;
+    font-size: 14px;
+    line-height: 1.28;
+    margin: 24px auto;
+    color: #fff;
+}
+
+.subscribe-btn-submit {
+    padding: 14px 40px;
+    border: 1px;
+    border-radius: 100px;
+    font-size: 18px;
+    line-height: 1.22;
+    color: #FFFFFF;
+    font-family: inherit;
+    background: var(--orange);
+}
+
+.subscribe-btn-submit:focus,
+.subscribe-btn-submit:hover {
+    color: var(--orange);
+    background-color: var(--btn-light-orange);
+}
+
+
+/*----------- sub- modal window --------------- */
+.backdrop {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(46, 47, 66, 0.4);
+
+    transition: ;
+}
+
+.backdrop.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.sub-modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 538px;
+    border-radius: 15px;
+    background-color: #FCFCFC;
+}
+
+.sub-modal-close-btn {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    border: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0;
+    width: 28px;
+    height: 28px;
+    background-color: transparent;
+    fill: var(--white);
+    transition: background-color var(--transition-dur-and-func);
+}
+
+.sub-modal-close-btn:hover,
+.sub-modal-close-btn:focus {
+    fill: var(--orange);
+    background-color: var(--btn-light-orange);
+    border-radius: 50%;
+    box-shadow: 0 4px 0 0 rgba(0, 0, 0, 0.25);
+}
+
+.modal-close-icon {
+    transition: fill var(--transition-dur-and-func);
+}
+
+.sub-modal-img {
+    border-radius: 15px 15px 0 0;
+}
+
+
+
+
+/*----------- modal form --------------- */
+
+.sub-modal-form {
+    padding: 40px;
+}
+
+.sub-modal-form-title {
+
+    Font-size: 24px;
+    line-height: 1.16;
+    font-weight: 600;
+    margin-bottom: 24px;
+    color: ;
+}
+
+.sub-modal-title-orange {
+    color: var(--orange);
+}
+
+.sub-modal-form-field {
+}
+
+.sub-modal-form-desc {
+    display: block;
+    Font-size: 12px;
+    Line-height: 1.17;
+    color: #8E8F99;
+    margin-bottom: 4px;
+}
+
+.sub-modal-input-btn {
+    display: flex;
+    gap: 8px;
+}
+
+
+.sub-modal-form-input {
+    width: 313px;
+    height: 52px;
+    border: 1px solid rgba(17, 17, 17, 0.05);
+    border-radius: 30px;
+    padding: 14px;
+
+}
+
+.sub-modal-form-input::placeholder {
+    font-size: 18px;
+    line-height: 1.22;
+    color: rgba(64, 64, 64, 0.3);
+}
+
+.sub-modal-form-input:focus {
+    outline: none;
+    border-color: var(--color-iris);
+}
+
+
+
+
+.sub-modal-form-submit {
+    width: 137px;
+    height: 52px;
+    margin: 0 auto;
+    padding: 16px 42px;
+    background: var(--orange);
+    border: 1px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.21;
+    color: #FFFFFF;
+    font-family: inherit;
+    border-radius: 100px;
+}
+
+.sub-modal-form-submit:hover,
+.sub-modal-form-submit:focus {}
