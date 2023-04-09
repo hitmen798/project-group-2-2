@@ -50,20 +50,16 @@
 }
 
 .overlay-text-one{
-    Font-family: Montserrat;
-    Font-style: Regular;
-    Font-size: 10px;
-    Line-height: 12px;
-    Line-height: 98%;
-    Align: Left;
-    Vertical-align: Center;
+    font-family: 'Montserrat';
+    
+    font-size: 10px;
+    line-height: 12px;
 }
 .overlay-text-two{
-    Font-family: Montserrat;
-    Font-style: Regular;
-    Font-size: 10px;
-    Line-height: 12px;
-    Line-height: 98%;
+    font-family: 'Montserrat';
+    
+    font-size: 10px;
+    line-height: 12px;
 }
 
 .overlay-header {
@@ -135,7 +131,7 @@ color: #111111;
     letter-spacing: -0.02em;
     color: #111111;
 }
-.unique-components-pictures-texts{}
+
 
 .unique-components-ul {
     display: flex;
