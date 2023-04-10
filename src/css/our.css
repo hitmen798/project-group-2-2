@@ -1,0 +1,113 @@
+.container {
+  /* width: 100%;
+  padding-left: 20px;
+  padding-right: 20px; */
+}
+.section-our-products {
+  margin-bottom: 20px;
+}
+.swiper {
+  display: none;
+
+  height: 412px;
+}
+
+.swiper-pagination-bullet {
+  width: 13px;
+  height: 13px;
+  background: rgba(17, 17, 17, 0.1);
+}
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  top: 401px;
+}
+.swiper-pagination-bullet-active {
+  background-color: var(--orange);
+  width: 28px;
+  height: 13px;
+  border-radius: 10px;
+}
+.our-products-title {
+  margin-bottom: 50px;
+
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.17;
+
+  text-align: center;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+}
+.our-products-title-item {
+  color: var(--orange);
+}
+.our-products-slaider {
+}
+.our-products-slaider-item {
+  /* justify-content: flex-start; */
+  gap: 18px;
+}
+.our-products-card-item {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 32px 0px;
+  text-align: center;
+
+  width: 333px;
+  height: 298px;
+  background: var(--pure-white-background);
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  border-radius: 15px;
+}
+.our-products-card {
+  padding: 32px 0px;
+  text-align: center;
+
+  width: 268px;
+  height: 364px;
+
+  background: var(--pure-white-background);
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  border-radius: 15px;
+}
+
+.our-products-list-item {
+}
+.our-products-pictures {
+  display: block;
+  width: 230px;
+  height: 201px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+.our-products-subtitle {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33;
+
+  text-transform: uppercase;
+}
+.our-products-text {
+  margin-bottom: 18px;
+
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+
+  color: rgba(17, 17, 17, 0.7);
+}
+.our-producrts-btn {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.21;
+
+  width: 94px;
+  height: 33px;
+
+  background: var(--white);
+  border: 1px solid var(--background-point);
+  border-radius: 100px;
+}

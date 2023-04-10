@@ -1,0 +1,118 @@
+.hero {
+    padding-bottom: 72px;
+}
+
+.hero-fon {
+    background-image: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%), url(../img/mobile-img/hero-mobile-1x.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    padding-top: 395px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (max-width: 375px),
+screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 375px),
+screen and (min-resolution: 192dpi) and (max-width: 375px),
+screen and (min-resolution: 2dppx) and (max-width: 375px) {
+    .hero-fon {
+        background-image: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%), url(../img/mobile-img/hero-mobile-2x.jpg);
+    }
+}
+
+.hero-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
+
+.hero-btn-box {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 32px 14px;
+}
+
+.hero-btn-buy {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.21;
+    color: #FFFFFF;
+    background: #FD9222;
+    border-radius: 100px;
+    border: none;
+    padding: 12px 28px;
+    cursor: pointer;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hero-btn-link {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.21;
+    color: #FFFFFF;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    border-radius: 100px;
+    padding: 11px 28px;
+    cursor: pointer;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hero-btn-buy:hover,
+.hero-btn-buy:focus {
+    color: #FD9222;
+    background: #FCF1E0;
+}
+
+.hero-btn-link:hover,
+.hero-btn-link:focus {
+    color: #FD9222;
+    border: 1px solid #FD9222;
+}
+
+.hero-scroll-link {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 0;
+}
+
+.hero-scroll-svg {
+    fill: #FD9222;
+    background-color: #FFFFFF;
+    border-radius: 100px;
+    border: solid 5px #FFFFFF;
+    margin-left: 12px;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hero-scroll-link:hover,
+.hero-scroll-link:focus {
+    color: #FD9222;
+}
+
+.hero-scroll-link:hover .hero-scroll-svg,
+.hero-scroll-link:focus .hero-scroll-svg {
+    fill: #FFFFFF;
+    background-color: #FD9222;
+    border: solid 5px #FD9222;
+}

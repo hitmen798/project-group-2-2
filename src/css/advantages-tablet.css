@@ -1,0 +1,23 @@
+@media screen and (min-width: 768px) {
+  .container {
+    /* max-width: 704px; */
+  }
+  .adv-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .advantages-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 32px;
+    
+  }
+  .advantages-item {
+    flex-basis: calc((100% - 32px) / 2);
+  }
+  .advantages-text {
+    width: 308px;
+    margin-bottom: 0;
+  }
+}

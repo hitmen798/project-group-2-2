@@ -1,0 +1,89 @@
+
+
+@media screen and (min-width: 1200px) {
+    .container {
+        /* max-width: 1136px; */
+
+    }
+
+    .subscribe {
+        padding: 72px 0;
+    }
+
+    @media screen and (min-device-pixel-ratio: 2) and (min-width:1200px),
+    screen and (min-resolution: 192dpi) and (min-width:1200px),
+    screen and (min-resolution: 2dppx) and (min-width:1200px) {
+        .subscribe {
+            background-image: url(../img/desktop-img/Subcribe-desk@2x.jpg);
+        }
+    }
+
+
+    .subscribe-content {}
+
+    .subscribe-tittle {
+        width: 378px;
+        height: 56px;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 1.16;
+    }
+
+    .subscribe-subtitle {
+        width: 467px;
+    }
+
+
+    /*----------- sub- modal window --------------- */
+
+
+
+
+
+
+
+    /*----------- modal form --------------- */
+
+
+.sub-modal-form {
+    margin: 40px 0;
+    padding:0 40px;
+}
+
+    .sub-modal-form-field {
+    }
+
+
+    .sub-modal-input-btn {}
+
+
+    .sub-modal-form-input {
+        width: 313px;
+        height: 52px;
+        border: 1px solid rgba(17, 17, 17, 0.05);
+        border-radius: 30px;
+        padding: 14px;
+
+    }
+
+    .sub-modal-form-submit {
+        position: static;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
