@@ -1,7 +1,7 @@
 @media screen and (min-width: 480px) {
   .container {
-    max-width: 428px;
+    /* max-width: 428px;
     padding-left: 32px;
-    padding-right: 32px;
+    padding-right: 32px; */
   }
 }
