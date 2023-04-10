@@ -2,8 +2,6 @@
     max-width: 375px;
 }
 
-
-
 .advantages {
     background: var(--dark-purple-background-color);
 }
@@ -23,14 +21,6 @@
     width: 100%;
 }
 
-.advantages-icon {
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    line-height: 0;
-    padding: 15px;
-}
-
 .advantages-icon-box {
     width: 62px;
     height: 62px;
@@ -38,6 +28,11 @@
     background-color: var(--dark-purple-background-color);
     border-radius: 50%;
     margin-bottom: 22px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    line-height: 0;
+    padding: 15px;
 }
 
 .advantages-title {
