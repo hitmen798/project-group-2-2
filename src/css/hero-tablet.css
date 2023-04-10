@@ -1,0 +1,59 @@
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+}
+
+@media screen and (min-width: 376px) {
+    .hero-fon {
+        background-image: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%), url(../img/tablet-img/hero-tablet-1x.jpg);
+
+    }
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 376px),
+screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 376px),
+screen and (min-resolution: 192dpi) and (min-width: 376px),
+screen and (min-resolution: 2dppx) and (min-width: 376px) {
+    .hero-fon {
+        background-image: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%), url(../img/tablet-img/hero-tablet-2x.jpg);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .hero {
+        padding-bottom: 50px;
+    }
+
+    .hero-fon {
+        padding-top: 671px;
+        padding-bottom: 40px;
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+
+    .hero-title {
+        max-width: 484px;
+        font-size: 28px;
+        line-height: 1.21;
+    }
+
+    .hero-btn-buy,
+    .hero-btn-link {
+        padding: 14px 40px;
+    }
+
+    .hero-scroll-link {
+        font-size: 14px;
+        line-height: 1.28;
+        margin-left: auto;
+    }
+
+    .hero-scroll-svg {
+        width: 38px;
+        height: 38px;
+        margin-left: 14px;
+    }
+}
