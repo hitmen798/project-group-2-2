@@ -1,8 +1,6 @@
 @media screen and (min-width: 375px) {
     .container { 
         max-width: 335px;
-        /* padding-left: 20px;
-        padding-right: 20px; */
     }
     
 }

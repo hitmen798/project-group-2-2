@@ -1,13 +1,13 @@
 @media screen and (min-width: 1200px) {
     .container {
         max-width: 1136px;
-        /* padding-left: 32px;
-        padding-right: 32px; */
     }
 
     .unique-components {
         padding-top: 128px;
         padding-bottom: 128px;
+        padding-left: 32px;
+        padding-right: 32px;
     }
     .unique-components-container {
         display: flex;
@@ -23,6 +23,8 @@
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
+        max-width: 486px;
+        height: 156px;
     }
     
     .unique-components-font-style {
@@ -200,6 +202,8 @@
         margin-right: 6px;
         margin-top: 8px;
         margin-bottom: 14px;
+        width: 93px;
+        height: 24px;
     
     }
     
@@ -208,6 +212,8 @@
         color: #111111;
         border: 1px solid #FD9222;
         border-radius: 15px;
+        width: 93px;
+        height: 24px;
     }
     
     .overlay-text-one{
@@ -236,7 +242,6 @@
     
         color: #111111;
         margin-left: 20px;
-        margin-right: 20px;
         margin-top: 20px;
     }
     
@@ -252,6 +257,7 @@
     
         color: #111111;
         margin-left: 20px;
+        margin-right: 20px;
     }
 }
 

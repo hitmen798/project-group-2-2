@@ -1,18 +1,19 @@
 @media screen and (min-width: 768px) {
     .container {
         max-width: 704px;
-        /* padding-left: 32px;
-        padding-right: 32px; */
     }
 
     .unique-components {
         padding-top: 100px;
         padding-bottom: 100px;
+        padding-left: 32px;
+        padding-right: 32px;
     }
     
     .unique-components-container {
         display: flex;
         padding: 0px;
+        align-items: center;
         gap: 50px;
 
     }
@@ -23,6 +24,8 @@
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
+        max-width: 486px;
+        height: 156px;
     }
     
     .unique-components-font-style {
@@ -188,6 +191,8 @@
         color: #FAFAFA;
         border: 1px solid #FD9222;
         border-radius: 15px;
+        width: 93px;
+        height: 24px;
     
     }
     
@@ -196,6 +201,8 @@
         color: #111111;
         border: 1px solid #FD9222;
         border-radius: 15px;
+        width: 93px;
+        height: 24px;
     }
     
     .overlay-text-one{
@@ -235,6 +242,8 @@
         letter-spacing: -0.02em;
     
         color: #111111;
+        margin-left: 28px;
+        margin-right: 28px;
     }
 }
 
