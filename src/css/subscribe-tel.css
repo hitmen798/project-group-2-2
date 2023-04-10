@@ -1,0 +1,86 @@
+
+
+
+
+@media screen and (min-width: 375px),
+(max-width:767px) {
+
+    .container {
+        max-width: 335px;
+    }
+
+    .container-sm {
+        width: 100%;
+        padding: 0 24px;
+    }
+
+    .subscribe {
+        padding: 63px 0;
+        text-align: center;
+        background-image: url(../img/mobile-img/Subcribe-mobile.jpg);
+        background-color: rgba(0, 0, 0, 0.2);
+        background-size: cover;
+    }
+
+    @media screen and (min-device-pixel-ratio: 2) and (max-width:767px),
+    screen and (min-resolution: 192dpi) and (max-width:767px),
+    screen and (min-resolution: 2dppx) and (max-width:767px) {
+        .subscribe {
+            background-image: url(../img/mobile-img/Subcribe-mobile@2x.jpg);
+        }
+    }
+
+    .subscripe-title {
+        width: 291px;
+        height: 48px;
+        font-size: 20px;
+    }
+
+    .subscribe-subtitle {
+        width: 326px;
+    }
+
+    .subscribe-btn-submit {}
+
+
+
+/*------------------------ mobile modal ---------------*/
+
+
+
+
+.sub-modal {}
+
+.sub-modal-form {
+    margin: 32px 0;
+    
+
+}
+
+.sub-modal-input-btn {
+    position: relative;
+    }
+.sub-modal-form-field {
+}
+
+.sub-modal-form-input {
+}
+
+.sub-modal-form-submit {
+    position: absolute;
+    right: 25%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
