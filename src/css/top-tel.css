@@ -1,0 +1,11 @@
+@media screen and (min-width: 480px) {
+    .container { 
+    /* max-width: 335px;  */
+    } 
+}
+@media screen and (max-width: 767px) {
+   .sellers-text-second{
+    display: none;
+   }
+
+}

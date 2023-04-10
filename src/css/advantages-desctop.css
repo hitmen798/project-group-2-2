@@ -1,0 +1,28 @@
+@media screen and (min-width: 1200px) {
+    .container {
+        /* max-width: 1136px; */
+    }
+    .adv-section {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .advantages-list {
+        display: flex;
+        flex-wrap: nowrap;
+        max-width: 1100px;
+        column-gap: 70px;
+    }
+    .adv-line {
+        position: relative;
+    }
+    .adv-line::before {
+        content: '';
+        width: 124px;
+        height: 0px;
+        position: absolute;
+        top: 110px;
+        left: 256px;
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        transform: rotate(90deg);
+    }
+}

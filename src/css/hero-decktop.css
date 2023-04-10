@@ -1,0 +1,25 @@
+@media screen and (min-width: 769px) {
+    .hero-fon {
+        background-image: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%), url(../img/desktop-img/hero-desktop-1x.jpg);
+
+    }
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 769px),
+screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 769px),
+screen and (min-resolution: 192dpi) and (min-width: 769px),
+screen and (min-resolution: 2dppx) and (min-width: 769px) {
+    .hero-fon {
+        background-image: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%), url(../img/desktop-img/hero-desktop-2x.jpg);
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .hero {
+        padding-bottom: 72px;
+    }
+
+    .hero-fon {
+        padding-top: 381px;
+    }
+}
