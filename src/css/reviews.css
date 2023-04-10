@@ -1,59 +1,3 @@
-:root {
-  --primary-text-color: #111111;
-  --dark-purple-background-color: #1e1823;
-  --orange: #fd9222;
-  --white: #fafafa;
-  --pure-white-background: #ffffff;
-  --btn-light-orange: #fcf1e0;
-  --background-point: rgba(17, 17, 17, 0.1);
-  --background-color: #e2e2e2;
-}
-h1,
-h2,
-h3,
-p {
-  margin: 0;
-}
-ul {
-  margin: 0;
-  padding: 0;
-}
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-body {
-  background-color: var(--background-color);
-  color: var(--primary-text-color);
-  font-family: Montserrat, sans-serif;
-  letter-spacing: -0.02em;
-  font-size: 14px;
-  line-height: 1.29;
-}
-.container {
-  width: 100%;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-left: auto;
-  margin-right: auto;
-}
-.list {
-  list-style: none;
-}
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
 /* Reviews */
 .reviews {
   max-width: 1200px;
@@ -133,10 +77,16 @@ body {
 .reviews-subject {
 }
 .reviews-text {
-  margin-left: 24px;
-  margin-right: 24px;
-  margin-top: 104px;
+  margin-left: 44px;
+  margin-right: 44px;
+  margin-top: 120px;
   margin-bottom: 42px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: rgba(17, 17, 17, 0.7);
 }
 .review-button {
   margin-top: 0;
@@ -146,7 +96,7 @@ body {
 
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
-  font-family: 'Montserrat';
+
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -162,7 +112,7 @@ body {
   transition-timing-function: var(--cubic);
 }
 .review-button:hover {
-  font-family: 'Montserrat';
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -170,4 +120,25 @@ body {
   background-color: var(--orange);
 
   color: #ffffff;
+}
+
+/*--------------------- swiper ---------------*/
+.swiper-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 13px;
+  margin-bottom: 50px;
+}
+.swiper-pagination-bullet {
+  width: 13px;
+  height: 13px;
+  border-radius: 10px;
+  background: rgba(17, 17, 17, 0.1);
+}
+.swiper-pagination-bullet-active {
+  background-color: var(--orange);
+  width: 28px;
+  height: 13px;
+  border-radius: 10px;
 }
