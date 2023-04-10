@@ -2,7 +2,10 @@
     .container {
         max-width: 335px;
     }
-    .advantages-text {
+    .advantages-item {
         width: 308px;
+    }
+    .advantages-text {
+        width: 295px;
     }
 }
