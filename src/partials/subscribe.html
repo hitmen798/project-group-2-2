@@ -1,27 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Subscribe</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,700&family=Roboto&display=swap"
-        rel="stylesheet">
-
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
-    <link rel="stylesheet" href="/src/css/subscribe.css">
-    <link rel="stylesheet" href="/src/css/subscribe-tel.css">
-    <link rel="stylesheet" href="/src/css/subscribe-tablet.css">
-    <link rel="stylesheet" href="src/css/subscribe-dektop.css">
-
-</head>
-
-<body>
     <section class="subscribe">
         <div class="container subscribe-content">
             <h1 class="subscribe-tittle">EXPLORE OUR NEW CHOCOLATE FIRST</h1>
@@ -33,35 +10,31 @@
                 that is sure to please.</p>
             <button type="submit" class="subscribe-btn-submit" data-modal-open>Subscribe</button>
         </div>
+            <div class="backdrop is-hidden" data-modal>
+                <div class="sub-modal">
+                    <button type="button" class="sub-modal-close-btn" data-modal-close>
+                        <svg class="sub-modal-close-icon" width="14px" height="14px">
+                            <use href="./img/sprait.svg#mob-menu-close"></use>
+                        </svg>
+                    </button>
+                    <img class="sub-modal-img" srcset="./img/desktop-img/chocolate@2x.jpg 2x, ./img/desktop-img/chocolate@x1.jpg 1x"
+                        src="./img/desktop-img/chocolate@x2.jpg" alt="">
+                    <form class="sub-modal-form container-sm">
+                        <h1 class="sub-modal-form-title">EXPLORE OUR <br> <span class="sub-modal-title-orange">NEW
+                                CHOCOLATE</span> FIRST!</h1>
+                        </label>
+                        <span class="sub-modal-input-btn">
+                            <label class="sub-modal-form-field">
+                                <input type="email" name="user_email" class="sub-modal-form-input" placeholder="Enter your email"
+                                    required>
+                            </label>
+                            <button type="submit" class="sub-modal-form-submit">Submit</button>
+                        </span>
+                    </form>
+                </div>
+            </div>
+
 
     </section>
-    <div class="backdrop is-hidden" data-modal>
-        <div class="sub-modal">
-            <button type="button" class="sub-modal-close-btn" data-modal-close>
-                <svg class="sub-modal-close-icon" width="14px" height="14px">
-                    <use href="./img/sprait.svg#icon-x"></use>
-                </svg>
-            </button>
-            <img class="sub-modal-img" srcset="./img/desktop-img/chocolate@2x.jpg 2x, ./img/desktop-img/chocolate@x1.jpg 1x"
-                src="./img/desktop-img/chocolate@x2.jpg" alt="">
-            <form class="sub-modal-form container-sm">
-                <h1 class="sub-modal-form-title">EXPLORE OUR <br> <span class="sub-modal-title-orange">NEW
-                        CHOCOLATE</span> FIRST!</h1>
-                </label>
-                <span class="sub-modal-input-btn">
-                    <label class="sub-modal-form-field">
-                        <input type="email"
-                            name="user_email"
-                            class="sub-modal-form-input"
-                            placeholder="Enter your email" required>
-                    </label>
-                        <button type="submit" class="sub-modal-form-submit">Submit</button>
-                    </span>
-            </form>
-        </div>
-    </div>
 
-    <script src="./js/modal.js"></script>
-</body>
 
-</html>
