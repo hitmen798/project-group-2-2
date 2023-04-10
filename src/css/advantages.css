@@ -52,3 +52,139 @@
     color: rgba(255, 255, 255, 0.7);
     margin-bottom: 18px;
 }
+
+/* -----Order/Buy----- */
+
+.backdrop {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+.modal-buy {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 609px;
+    min-height: 1058px;
+    background-color: var(--background-color);
+    border-radius: 15px;
+    padding: 48px;
+}
+.modal-buy-close {
+    width: 28px;
+    height: 28px;
+    padding: 0;
+    border: none;
+    position: absolute;
+    top: 24px;
+    right: 24px;
+}
+.modal-buy-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: var(--primary-text-color);
+    margin-bottom: 32px;
+}
+.buy-part-title {
+    color: var(--orange);
+}
+
+.modal-buy-box {
+    width: 160px;
+    height: 196px;
+    background: var(--pure-white-background);
+    border: 1px solid rgba(17, 17, 17, 0.1);
+    border-radius: 15px;
+}
+
+.modal-buy-list {
+    width: 513px;
+    height: 196px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    margin-bottom: 40px;
+}
+
+.modal-buy-card {
+    
+}
+
+.buy-border-card {
+    width: 96px;
+    height: 33px;
+    border: 1px solid rgba(17, 17, 17, 0.1);
+    border-radius: 100px;
+    margin-top: 14px;
+}
+.buy-border-text {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: var(--primary-text-color);
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.modal-buy-input {
+    width: 246px;
+    height: 66px;
+    border: 1.5px solid rgba(17, 17, 17, 0.05);
+    filter: drop-shadow(0px 5.44492px 5.44492px rgba(0, 0, 0, 0.03));
+    border-radius: 13px;
+    margin-bottom: 18px;
+    font-size: 18px;
+    padding-left: 24px;
+}
+.modal-buy-input-info {
+    width: 100%;
+    height: 66px;
+    border: 1.5px solid rgba(17, 17, 17, 0.05);
+    filter: drop-shadow(0px 5.44492px 5.44492px rgba(0, 0, 0, 0.03));
+    border-radius: 13px;
+    margin-bottom: 18px;
+    font-size: 18px;
+    padding-left: 24px;
+}
+.modal-buy-input-text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: #000000;
+    margin-bottom: 8px;
+}
+.modal-buy-comment {
+    width: 100%;
+    height: 137px;
+    border: 1.5px solid rgba(17, 17, 17, 0.05);
+    border-radius: 13px;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: #000000;
+    padding: 22px 24px 93px;
+    resize: none;
+}
+.modal-buy-btn {
+    width: 133px;
+    height: 45px;
+    background: var(--orange);
+    border-radius: 100px;
+
+}
