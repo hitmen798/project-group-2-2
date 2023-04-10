@@ -1,4 +1,7 @@
 @media screen and (min-width: 375px) {
+    .container {
+        max-width: 335px;
+    }
     .advantages-text {
         width: 308px;
     }

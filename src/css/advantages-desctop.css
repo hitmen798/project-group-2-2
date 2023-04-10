@@ -1,8 +1,8 @@
 @media screen and (min-width: 1200px) {
     .container {
-        max-width: 1200px;
-        padding-left: 50px;
-        padding-right: 50px;
+        max-width: 1136px;
+        /* padding-left: 50px;
+        padding-right: 50px; */
     }
     .adv-section {
         padding-top: 50px;
