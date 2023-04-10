@@ -8,25 +8,30 @@
   --background-point: rgba(17, 17, 17, 0.1);
   --background-color: #fafafa;
 }
+
 h1,
 h2,
 h3,
 p {
   margin: 0;
 }
+
 a {
   text-decoration: none;
 }
+
 ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
+
 img {
   display: block;
   max-width: 100%;
   height: auto;
 }
+
 body {
   background-color: var(--background-color);
   color: var(--primary-text-color);
@@ -36,6 +41,7 @@ body {
   line-height: 1.29;
   margin: 0;
 }
+
 .container {
   width: 100%;
   padding-left: 20px;
@@ -43,23 +49,27 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+
 @media screen and (min-width: 375px) {
   .container {
-width: 335px;
+    width: 335px;
+  }
 }
-}
+
 @media screen and (min-width: 768px) {
   .container {
-width: 704px;
-padding-left: 32px;
-padding-right: 32px;
+    width: 704px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
 }
-}
+
 @media screen and (min-width: 1200px) {
   .container {
-width: 1136px;
+    width: 1136px;
+  }
 }
-}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
