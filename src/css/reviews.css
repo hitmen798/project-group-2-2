@@ -180,7 +180,7 @@ body {
 }
 
 /*--------------------- swiper ---------------*/
-.swiper-pagination {
+.swiper-reviews {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -188,13 +188,13 @@ body {
   margin-top: 100px;
   margin-bottom: 50px;
 }
-.swiper-pagination-bullet {
+.swiper-reviews-bullet {
   width: 13px;
   height: 13px;
   border-radius: 10px;
   background: rgba(17, 17, 17, 0.1);
 }
-.swiper-pagination-bullet-active {
+.swiper-reviews-bullet-active {
   background-color: var(--orange);
   width: 28px;
   height: 13px;
