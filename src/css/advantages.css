@@ -85,6 +85,7 @@
     position: absolute;
     top: 24px;
     right: 24px;
+    background-color: var(--background-color);
 }
 .modal-buy-title {
     font-weight: 600;
@@ -129,6 +130,7 @@
     height: 33px;
     border: 1px solid rgba(17, 17, 17, 0.1);
     border-radius: 100px;
+    background-color: var(--background-color);
     margin-top: 14px;
 }
 .buy-border-text {
@@ -147,9 +149,12 @@
     border: 1.5px solid rgba(17, 17, 17, 0.05);
     filter: drop-shadow(0px 5.44492px 5.44492px rgba(0, 0, 0, 0.03));
     border-radius: 13px;
+    margin-top: 8px;
     margin-bottom: 18px;
     font-size: 18px;
     padding-left: 24px;
+    display: flex;
+    flex-flow: row wrap;
 }
 .modal-buy-input-info {
     width: 100%;
@@ -157,6 +162,7 @@
     border: 1.5px solid rgba(17, 17, 17, 0.05);
     filter: drop-shadow(0px 5.44492px 5.44492px rgba(0, 0, 0, 0.03));
     border-radius: 13px;
+    margin-top: 8px;
     margin-bottom: 18px;
     font-size: 18px;
     padding-left: 24px;
@@ -167,7 +173,6 @@
     line-height: 1.29;
     letter-spacing: -0.02em;
     color: #000000;
-    margin-bottom: 8px;
 }
 .modal-buy-comment {
     width: 100%;
@@ -180,11 +185,21 @@
     color: #000000;
     padding: 22px 24px 93px;
     resize: none;
+    font-size: 18px;
+    line-height: 1.22;
+    color: rgba(64, 64, 64, 0.3);
+    margin-top: 8px;
 }
 .modal-buy-btn {
     width: 133px;
     height: 45px;
     background: var(--orange);
     border-radius: 100px;
+    border: none;
+    margin-top: 18px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.21;
+    color: var(--pure-white-background);
 
 }
