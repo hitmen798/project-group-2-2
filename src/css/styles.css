@@ -77,33 +77,3 @@
 @import url('./explore-tel.css');
 @import url('./explore-tablet.css');
 @import url('./explore-decktop.css');
-
-:root {
-  –-black: #111111;
-  –-dark-purple-background-color: #1e1823;
-  –-orange: #fd9222;
-  –-white: #fafafa;
-  –-pure-white-background: #ffffff;
-  –-btn-light-orange: #fcf1e0;
-  –-background-point: rgba(17, 17, 17, 0.1);
-  –-background-color: #e2e2e2;
-  –-hero-gradient: linear-gradient(
-    180deg,
-    rgba(17, 17, 17, 0) 0%,
-    rgba(17, 17, 17, 0.4) 100%
-  );
-  
-  /* font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
-
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%; */
-}

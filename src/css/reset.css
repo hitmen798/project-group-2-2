@@ -6,7 +6,7 @@
   --pure-white-background: #ffffff;
   --btn-light-orange: #fcf1e0;
   --background-point: rgba(17, 17, 17, 0.1);
-  --background-color: #e2e2e2;
+  --background-color: #fafafa;
 }
 h1,
 h2,
@@ -42,6 +42,23 @@ body {
   padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
+}
+@media screen and (min-width: 375px) {
+  .container {
+width: 335px;
+}
+}
+@media screen and (min-width: 768px) {
+  .container {
+width: 704px;
+padding-left: 32px;
+padding-right: 32px;
+}
+}
+@media screen and (min-width: 1200px) {
+  .container {
+width: 1136px;
+}
 }
 .visually-hidden {
   position: absolute;
