@@ -4,7 +4,8 @@
   }
 
   .footer {
-    padding: 50px 32px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
   .footer-title {
     font-size: 28px;
