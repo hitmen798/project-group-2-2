@@ -32,9 +32,9 @@
         </ul>
         </div>
     </section>
-    <div class="backdrop-buy is-hidden" data-modal>
+    <div class="backdrop-buy is-hidden" data-modal-buy>
         <div class="modal-buy">
-            <button class="modal-buy-close" data-modal-close type="button">
+            <button class="modal-buy-close" data-modal-close-buy type="button">
                 <svg class="modal-buy-close-icon" width="14" height="14">
                     <use href="./img/sprait.svg#mob-menu-close"></use>
                 </svg>
@@ -43,7 +43,7 @@
             <ul class="modal-buy-list list">
                 <li class="modal-buy-card">
                     <div class="modal-buy-mobile">
-                    <img src="./img/desktop-img/buy-now-desktop-1-1x.png" class="modal-buy-img" alt="a piece of chocolate" width="120" height="107">
+                    <img srcset="./img/desktop-img/buy-now-desktop-1-1x.png 1x, ./img/desktop-img/buy-now-desktop-1-2x.png 2x" src="./img/desktop-img/buy-now-desktop-1-1x.png" class="modal-buy-img" alt="a piece of chocolate" width="120" height="107">
                     <div class="buy-border-card">
                         <p class="buy-border-text">100 g</p>
                     </div>
@@ -51,7 +51,7 @@
                 </li>
                 <li class="modal-buy-card">
                     <div class="modal-buy-mobile">
-                    <img src="./img/desktop-img/buy-now-desktop-2-1x.png" class="modal-buy-img" alt="chocolate with nuts" width="120" height="107">
+                    <img srcset="./img/desktop-img/buy-now-desktop-2-1x.png 1x, ./img/desktop-img/buy-now-desktop-2-2x.png 2x" src="./img/desktop-img/buy-now-desktop-2-1x.png" class="modal-buy-img" alt="chocolate with nuts" width="120" height="107">
                     <div class="buy-border-card">
                         <p class="buy-border-text">200 g</p>
                     </div>
@@ -59,7 +59,7 @@
                 </li>
                 <li class="modal-buy-card">
                     <div class="modal-buy-mobile">
-                    <img src="./img/desktop-img/buy-now-desktop-3-1x.png" class="modal-buy-img-dark" alt="dark chocolate" width="120" height="111">
+                    <img srcset="./img/desktop-img/buy-now-desktop-3-1x.png 1x, ./img/desktop-img/buy-now-desktop-3-2x.png 2x" src="./img/desktop-img/buy-now-desktop-3-1x.png" class="modal-buy-img-dark" alt="dark chocolate" width="120" height="111">
                     <div class="buy-border-card">
                         <p class="buy-border-text">300 g</p>
                     </div>
@@ -74,8 +74,6 @@
                 </div>
                 <label for="user-email" class="modal-buy-input-text">Email</label>
                 <input type="email" name="user-email" id="user-email" class="modal-buy-input-info" placeholder="Enter your email" required>
-
-                
                 <label for="user-phone" class="modal-buy-input-text">Phone number
                 <input type="tel" name="user-phone" id="user-phone" class="modal-buy-input-phone" placeholder="Phone number" required>
                 <span class="modal-span-input">+380</span>
@@ -83,14 +81,12 @@
                     <use href="./img/sprait.svg#Ukraine"></use>
                 </svg>
                 </label>
-                
                 <label for="user-card" class="modal-buy-input-text">Card number
                 <input type="tel" name="user-card" id="user-card" class="modal-buy-input-info" placeholder="Enter card" required>
                 <svg class="modal-buy-icon-card" width="44" height="30">
                     <use href="./img/sprait.svg#icon-mastercard"></use>
                 </svg>
                 </label>
-
                 <div>
                     <label class="modal-buy-input-text" for="user-text">Comment</label>
                     <textarea name="user-text" id="user-text" class="modal-buy-comment" placeholder="Enter text"></textarea>

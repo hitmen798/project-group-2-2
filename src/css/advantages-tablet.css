@@ -18,9 +18,15 @@
     margin-bottom: 0;
   }
 
+  .backdrop-buy {
+    position: fixed;
+    top: 80px;
+    width: 100%;
+    height: 100%;
+  }
   .modal-buy {
         max-width: 609px;
-        min-height: 1058px;
+        height: 1058px;
         padding: 48px;
     }
     .modal-buy-title {
@@ -33,7 +39,7 @@
       flex-direction: row;
     }
     .modal-buy-list {
-      width: 100%;
+      width: 513px;
       height: 196px;
       display: flex;
       flex-direction: row;
@@ -49,9 +55,13 @@
     }
     .modal-buy-img {
       margin: 24px 20px 20px 14px;
+      width: 120px;
+      height: 107px;
     }
     .modal-buy-img-dark {
       margin: 20px 20px 20px 14px;
+      width: 120px;
+      height: 111px;
     }
     .buy-border-card {
         width: 96px;
