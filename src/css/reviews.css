@@ -5,12 +5,12 @@
   margin-right: auto;
   background: var(--white);
   text-align: center;
+  padding: 128px 0;
 }
 .container {
 }
 
 .reviews-container {
-  padding: 128px 0;
 }
 .reviews-title {
   font-family: 'Montserrat';
@@ -108,7 +108,7 @@
   border: 1px solid #fd9222;
   border-radius: 100px;
   color: #111111;
-  transition-duration: 1250ms;
+  transition-duration: 250ms;
   transition-timing-function: var(--cubic);
 }
 .review-button:hover {
@@ -123,20 +123,21 @@
 }
 
 /*--------------------- swiper ---------------*/
-.swiper-pagination {
+.swiper-reviews {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 13px;
+  margin-top: 100px;
   margin-bottom: 50px;
 }
-.swiper-pagination-bullet {
+.swiper-reviews-bullet {
   width: 13px;
   height: 13px;
   border-radius: 10px;
   background: rgba(17, 17, 17, 0.1);
 }
-.swiper-pagination-bullet-active {
+.swiper-reviews-bullet-active {
   background-color: var(--orange);
   width: 28px;
   height: 13px;
