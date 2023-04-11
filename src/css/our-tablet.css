@@ -3,12 +3,11 @@
     /* max-width: 768px; */
   }
   .section-our-products {
-    margin-bottom: 100px;
+    padding-bottom: 100px;
   }
-  .swiper {
-    display: block;
-  }
-  .our-products-card-item {
-    display: none;
+
+  .our-products-card {
+    width: 268px;
+    height: 298px;
   }
 }
