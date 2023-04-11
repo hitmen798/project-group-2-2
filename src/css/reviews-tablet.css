@@ -1,5 +1,37 @@
-@media screen and (min-width: 768px) {
-  .container {
-    max-width: 704px;
+@media screen and (max-width: 767px) {
+
+  .rev-item-two {
+    display: none;
   }
+}
+
+@media screen and (min-width: 768px) {
+  .reviews {
+    padding-bottom: 114px;
+  }
+
+  .reviews-title {
+    font-size: 24px;
+    line-height: 1.16;
+    margin-bottom: 91px;
+  }
+
+  .reviews-list {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 50px;
+  }
+
+  .reviews-item {
+    width: 344px;
+    padding: 0 16px;
+  }
+
+  .review-button {
+    font-size: 14px;
+    line-height: 1.22;
+    padding: 14px 40px;
+  }
+
+
 }
