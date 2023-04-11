@@ -3,7 +3,7 @@
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  background: var(--white);
+  background: #e2e2e2;
   text-align: center;
   padding: 128px 0;
 }
@@ -143,3 +143,5 @@
   height: 13px;
   border-radius: 10px;
 }
+
+/* тест */
