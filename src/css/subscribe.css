@@ -1,30 +1,9 @@
-  <<<<<<< Subscribe
-  <<<<<<< Updated upstream
-  :root {
-      --primary-text-color: #111111;
-      --dark-purple-background-color: #1e1823;
-      --orange: #fd9222;
-      --white: #fafafa;
-      --pure-white-background: #ffffff;
-      --btn-light-orange: #fcf1e0;
-      --background-point: rgba(17, 17, 17, 0.1);
-      --background-color: #e2e2e2;
-  }
-
-  =======
-  >>>>>>> main
-  .container {
-      width: 100%;
-      margin: 0 auto;
-  }
-  =======
-  >>>>>>> Stashed changes
 /*--------------------- Subscribe -------------------------*/
 
 
 .subscribe {
     padding: 72px 0;
-    background-image: url('../img/desktop-img/Subcribe-desk.jpg');
+    background-image: url('../img/desktop-img/Subcribe@2x.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.2);
@@ -81,7 +60,6 @@
     height: 100%;
     background-color: rgba(46, 47, 66, 0.4);
 
-    /* transition: ; */
 }
 
 .backdrop.is-hidden {
@@ -115,7 +93,6 @@
     height: 28px;
     background-color: transparent;
     fill: var(--white);
-    transition: background-color var(--transition-dur-and-func);
 }
 
 .sub-modal-close-btn:hover,
@@ -156,8 +133,6 @@
     color: var(--orange);
 }
 
-.sub-modal-form-field {
-}
 
 .sub-modal-form-desc {
     display: block;
