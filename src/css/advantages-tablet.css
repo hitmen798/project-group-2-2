@@ -68,6 +68,10 @@
         flex-flow: row;
         column-gap: 21px;
     }
+    .modal-buy-input-phone {
+      width: 435px;
+      padding-left: 177px;
+    }
     .modal-buy-btn {
         width: 133px;
         height: 45px;
