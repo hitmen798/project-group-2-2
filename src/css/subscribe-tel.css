@@ -5,14 +5,13 @@
         /* max-width: 335px; */
     }
 
-    .container-sm {
+    /* .container-sm {
         width: 100%;
         padding: 0 24px;
-    }
+    } */
 
     .subscribe {
         padding: 63px 0;
-        text-align: center;
         background-image: url(../img/mobile-img/Subcribe-mobile.jpg);
         background-color: rgba(0, 0, 0, 0.2);
         background-size: cover;
@@ -64,7 +63,7 @@
 
 .sub-modal-form-submit {
     position: absolute;
-    right: 25%;
+    right: 10%;
 }
 
 
