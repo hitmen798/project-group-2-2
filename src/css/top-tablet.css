@@ -25,7 +25,7 @@
         width: 162px;
         height: 50px;
         margin-top: 32px;
-        background: #FD9222;
+        background: var(--orange);
         border-radius: 100px;
   }  
 }
