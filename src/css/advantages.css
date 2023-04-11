@@ -1,7 +1,3 @@
-.container {
-    /* max-width: 375px; */
-}
-
 .advantages {
     background: var(--dark-purple-background-color);
 }
@@ -21,6 +17,14 @@
     width: 100%;
 }
 
+.advantages-icon {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    line-height: 0;
+    padding: 15px;
+}
+
 .advantages-icon-box {
     width: 62px;
     height: 62px;
@@ -28,11 +32,6 @@
     background-color: var(--dark-purple-background-color);
     border-radius: 50%;
     margin-bottom: 22px;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    line-height: 0;
-    padding: 15px;
 }
 
 .advantages-title {
@@ -55,7 +54,7 @@
 
 /* -----Order/Buy----- */
 
-.backdrop {
+.backdrop-buy {
     position: fixed;
     top: 0;
     width: 100%;
@@ -71,7 +70,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 609px;
+    max-width: 609px;
     min-height: 1058px;
     background-color: var(--background-color);
     border-radius: 15px;
@@ -87,6 +86,10 @@
     right: 24px;
     background-color: var(--background-color);
 }
+.modal-buy-close:is(:hover,:focus) {
+    background-color: var(--btn-light-orange);
+}
+
 .modal-buy-title {
     font-weight: 600;
     font-size: 24px;
@@ -101,16 +104,8 @@
     color: var(--orange);
 }
 
-.modal-buy-box {
-    width: 160px;
-    height: 196px;
-    background: var(--pure-white-background);
-    border: 1px solid rgba(17, 17, 17, 0.1);
-    border-radius: 15px;
-}
-
 .modal-buy-list {
-    width: 513px;
+    width: 100%;
     height: 196px;
     display: flex;
     flex-direction: row;
@@ -122,7 +117,11 @@
 }
 
 .modal-buy-card {
-    
+    width: 160px;
+    height: 196px;
+    background: var(--pure-white-background);
+    border: 1px solid rgba(17, 17, 17, 0.1);
+    border-radius: 15px;
 }
 
 .buy-border-card {
@@ -131,7 +130,7 @@
     border: 1px solid rgba(17, 17, 17, 0.1);
     border-radius: 100px;
     background-color: var(--background-color);
-    margin-top: 14px;
+    margin-left: 32px;
 }
 .buy-border-text {
     font-weight: 600;
@@ -142,20 +141,14 @@
     padding-top: 8px;
     padding-bottom: 8px;
 }
-
-.modal-buy-input {
-    width: 246px;
-    height: 66px;
-    border: 1.5px solid rgba(17, 17, 17, 0.05);
-    filter: drop-shadow(0px 5.44492px 5.44492px rgba(0, 0, 0, 0.03));
-    border-radius: 13px;
-    margin-top: 8px;
-    margin-bottom: 18px;
-    font-size: 18px;
-    padding-left: 24px;
-    display: flex;
-    flex-flow: row wrap;
+.modal-buy-img {
+    margin: 24px 20px 20px 14px;
 }
+.modal-buy-img-dark {
+    margin: 20px 20px 20px 14px;
+}
+
+.modal-buy-input,
 .modal-buy-input-info {
     width: 100%;
     height: 66px;
@@ -165,8 +158,19 @@
     margin-top: 8px;
     margin-bottom: 18px;
     font-size: 18px;
+    background-color: var(--background-color);
+}
+
+input::placeholder {
     padding-left: 24px;
 }
+
+.modal-form-buy {
+    display: flex;
+    flex-flow: row;
+    column-gap: 21px;
+}
+
 .modal-buy-input-text {
     font-weight: 500;
     font-size: 14px;
@@ -183,12 +187,16 @@
     line-height: 1.29;
     letter-spacing: -0.02em;
     color: #000000;
-    padding: 22px 24px 93px;
+    
     resize: none;
     font-size: 18px;
     line-height: 1.22;
     color: rgba(64, 64, 64, 0.3);
     margin-top: 8px;
+}
+textarea::placeholder {
+    padding-top: 24px;
+    padding-left: 20px;
 }
 .modal-buy-btn {
     width: 133px;
@@ -201,5 +209,8 @@
     font-size: 14px;
     line-height: 1.21;
     color: var(--pure-white-background);
-
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-buy-btn:is(:hover,:focus) {
+    background-color: var(--btn-light-orange);
 }

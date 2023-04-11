@@ -32,7 +32,7 @@
         </ul>
         </div>
     </section>
-    <div class="backdrop is-hidde" data-modal>
+    <div class="backdrop-buy is-hidde" data-modal>
         <div class="modal-buy">
             <button class="modal-buy-close" data-modal-close type="button">
                 <svg class="modal-buy-close-icon" width="14" height="14">
@@ -42,45 +42,38 @@
             <p class="modal-buy-title"><span class="buy-part-title">buy</span> now</p>
             <ul class="modal-buy-list list">
                 <li class="modal-buy-card">
-                    <div class="modal-buy-box">
-                    <img src="../img/mobile-img/buy-now-mobile-1-1x.png" alt="a piece of chocolate" width="120" height="107">
+                    <img srcset="/project-group-2-2/assets/buy-now-desktop-1-1x.png 1x, /project-group-2-2/assets/buy-now-desktop-1-2x.png 2x" src="./img/desktop-img/buy-now-desktop-1-1x.png" class="modal-buy-img" alt="a piece of chocolate" width="120" height="107">
                     <div class="buy-border-card">
                         <p class="buy-border-text">100 g</p>
                     </div>
-                    </div>
                 </li>
                 <li class="modal-buy-card">
-                    <div class="modal-buy-box">
-                    <img src="../img/mobile-img/buy-now-mobile-2-1x.png" alt="chocolate with nuts" width="120" height="107">
+                    <img src="./img/desktop-img/buy-now-desktop-2-1x.png" class="modal-buy-img" alt="chocolate with nuts" width="120" height="107">
                     <div class="buy-border-card">
                         <p class="buy-border-text">200 g</p>
                     </div>
-                    </div>
                 </li>
                 <li class="modal-buy-card">
-                    <div class="modal-buy-box">
-                    <img src="../img/mobile-img/buy-now-mobile-3-1x.png" alt="dark chocolate" width="120" height="111">
+                    <img src="./img/desktop-img/buy-now-desktop-3-1x.png" class="modal-buy-img-dark" alt="dark chocolate" width="120" height="111">
                     <div class="buy-border-card">
                         <p class="buy-border-text">300 g</p>
-                    </div>
                     </div>
                 </li>
             </ul>
             <form class="modal-buy-form">
                 <label for="user-name" class="modal-buy-input-text">Personal information</label>
+                <div class="modal-form-buy">
                 <input type="text" name="user-name" id="buy-user-name" class="modal-buy-input" placeholder="Name" required>
                 <input type="text" name="user-surname" class="modal-buy-input" placeholder="Surname" required>
-
+                </div>
                 <label for="user-email" class="modal-buy-input-text">Email</label>
                 <input type="email" name="user-email" id="buy-user-email" class="modal-buy-input-info" placeholder="Enter your email" required>
                 <div class="modal-buy-field">
                 <label for="user-phone" class="modal-buy-input-text">Phone number</label>
-                <div class="modal-buy-input-wrap">
                 <input type="tel" pattern="[\+]\d{3}\s[\(]\d{2}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}" name="user-phone" id="buy-user-phone" class="modal-buy-input-info" placeholder="Phone number" required>
                 <svg class="modal-buy-input-icon" width="32" height="32">
                     <use href=""></use>
                 </svg>
-                </div>
                 </div>
                 <label for="user-card" class="modal-buy-input-text">Card number</label>
                 <input type="tel" name="user-card" id="buy-user-card" class="modal-buy-input-info" placeholder="Enter card" required>
