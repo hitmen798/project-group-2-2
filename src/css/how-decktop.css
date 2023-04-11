@@ -6,8 +6,8 @@
   .how-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin-left: 32px;
-    margin-right: 32px;
+    /* margin-left: 32px;
+    margin-right: 32px; */
   }
   .how-title {
     font-family: 'Montserrat';

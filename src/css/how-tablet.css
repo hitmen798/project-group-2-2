@@ -7,8 +7,8 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-left: 77px;
-    margin-right: 77px;
+    /* margin-left: 77px;
+    margin-right: 77px; */
   }
   .how-title {
     font-family: 'Montserrat';

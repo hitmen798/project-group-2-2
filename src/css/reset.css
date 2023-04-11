@@ -33,7 +33,7 @@ img {
 }
 
 body {
-  background-color: var(--background-color);
+  background-color: var(--white);
   color: var(--primary-text-color);
   font-family: Montserrat, sans-serif;
   letter-spacing: -0.02em;
