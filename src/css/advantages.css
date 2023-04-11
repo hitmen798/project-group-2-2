@@ -54,12 +54,11 @@
 
 /* -----Order/Buy----- */
 
-.backdrop {
+.backdrop-buy {
     position: fixed;
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: var(--background-point);
 }
 .is-hidden {
     opacity: 0;
