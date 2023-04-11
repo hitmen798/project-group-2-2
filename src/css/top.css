@@ -21,10 +21,10 @@
   font-size: 24px;
   line-height: 1.2;
   letter-spacing: -0.03em;
-  color: #fd9222;
+  color: var(--orange);
 }
 .sellers-section {
-  padding-top: 72px;
+  
   padding-bottom: 72px;
 }
 .sellers-text-first {
@@ -32,6 +32,11 @@
   margin-bottom: 32px;
   max-width: 306px;
   height: 90px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.3;
+  letter-spacing: -0.02em;
+  color: var(--primary-text-color);
 }
 .sellers-list {
   display: flex;
@@ -54,13 +59,13 @@
   font-weight: 600;
   font-size: 14px;
   line-height: 1.2;
-  color: #ffffff;
-  background: #fd9222;
+  color: var(--pure-white-background);
+  background: var(--orange);
   border-radius: 100px;
   border: none;
 }
 .sellers-btn:hover,
 .sellers-btn:focus {
-	background: #FCF1E0;
-    color: #fd9222;
+  background: #fcf1e0;
+  color: var(--orange);
 }
