@@ -22,8 +22,8 @@
       href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
     />
     
-    <script type="module" crossorigin src="/project-group-2-2/assets/index-dca5e9bd.js"></script>
-    <link rel="stylesheet" href="/project-group-2-2/assets/index-defbca4e.css">
+    <script type="module" crossorigin src="/project-group-2-2/assets/index-8b52dc91.js"></script>
+    <link rel="stylesheet" href="/project-group-2-2/assets/index-ec76886f.css">
   </head>
   <body>
     <header class="head">
@@ -581,8 +581,44 @@
         </p>
       </li>
     </ul>
-    <button type="button" class="review-button">Leave a review</button>
+    <button type="button" data-modal-open-rev  class="review-button" >Leave a review</button>
+  </div>
+  <div class="backdrop is-hidden" data-modal-rev>
+    <div class="modal-container">
+        <button type="button" data-modal-close-rev class="modal-close">
+            <svg class="close-modal-icon" width="24" height="24">
+                <use href="./images/sprite.svg#mob-menu-close"></use>
+            </svg>
+        </button>
+        <h2 class="modal-main-title">LEAVE A REVIEW ABOUT
+            <span class="text-span">OUR CHOCOLATE</span>
+        </h2>
+        </h3>
+        <form class="modal-form">
+            <input type="text" id="text" class="form-input" name="name" required placeholder="Name" />
+
+            <input type="email" id="email" class="form-input" name="email" required
+                placeholder="Enter your email" />
+
+            <label for="tel" class="form-label">
+                <span class="form-label-tel">+380</span>
+                <span class="tel-form">
+                    <input type="tel" id="tel" class="form-input tel-input" name="phone" required
+                        placeholder="Phone number" />
+                    <svg class="form-icon" width="24" height="24">
+                        <use href="./images/sprite.svg#Ukraine"></use>
+                    </svg>
+                </span>
+            </label>
+
+            <textarea name="comment" class="text-area" placeholder="Enter text" id="comment"></textarea>
+
+            <button type="submit" class="modal-send-button">Send</button>
+        </form>
+    </div>
+</div>
   </section>  
+  
     
     <section class="subscribe">
         <div class="container subscribe-content">
@@ -688,7 +724,8 @@
     
     
     
-    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js" type="module"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     
   </body>
 </html>
