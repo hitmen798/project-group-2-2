@@ -59,7 +59,8 @@
       max-height: 500px;
 
       border-radius: 15px;
-      background-image: url(../img/mobile-img/how-its-made-mobile-1x.jpg);
+      background-image: url(../img/mobile-img/how-its-made-mobile-2x.jpg);
+      margin-bottom: 20px;
     }
   }
   .how-content {
