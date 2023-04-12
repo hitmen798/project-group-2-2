@@ -74,7 +74,7 @@
     transform: translate(-50%, -50%);
     max-width: 311px;
     min-height: 994px;
-    background-color: var(--white);
+    background-color: #fafafa;
     border-radius: 15px;
     padding: 24px;
 }
@@ -86,7 +86,7 @@
     position: absolute;
     top: 24px;
     right: 24px;
-    background-color: var(--white);
+    background-color: #fafafa;
 }
 .modal-buy-close:is(:hover,:focus) {
     background-color: var(--btn-light-orange);
@@ -133,7 +133,7 @@
     height: 29px;
     border: 1px solid rgba(17, 17, 17, 0.1);
     border-radius: 100px;
-    background-color: var(--white);
+    background-color: #fafafa;
     margin-top: 20px;
     margin-right: 16px;
 }
@@ -168,7 +168,7 @@
     margin-bottom: 18px;
     font-size: 18px;
     outline: none;
-    background-color: var(--white);
+    background-color: #fafafa;
 }
 
 input::placeholder {
@@ -184,7 +184,7 @@ input::placeholder {
     margin-bottom: 18px;
     padding-left: 106px;
     font-size: 18px;
-    background-color: var(--white);
+    background-color: #fafafa;
 }
 
 .modal-buy-input-text {
@@ -231,7 +231,7 @@ input::placeholder {
     line-height: 1.22;
     color: rgba(64, 64, 64, 0.3);
     margin-top: 8px;
-    background-color: var(--white);
+    background-color: #fafafa;
 }
 textarea::placeholder {
     padding-top: 24px;
