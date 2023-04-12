@@ -6,12 +6,13 @@
     background-image: url('../img/desktop-img/Subcribe@2x.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     background-color: rgba(0, 0, 0, 0.2);
 }
 
 .subscribe-content {
     text-align: center;
-    width: calc((100%) - 40px / 1);
+    max-width: calc((100%) - 40px / 1);
 }
 
 .subscribe-tittle {
