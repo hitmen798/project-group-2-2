@@ -31,7 +31,7 @@
     transform: translate(-50%, -50%);
     max-width: 609px;
     min-height: 1058px;
-    background-color: var(--white);
+    background-color: #fafafa;
     border-radius: 15px;
     padding: 48px;
     }

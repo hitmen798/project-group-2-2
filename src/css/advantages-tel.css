@@ -13,7 +13,7 @@
     transform: translate(-50%, -50%);
     max-width: 311px;
     min-height: 994px;
-    background-color: var(--white);
+    background-color: #fafafa;
     border-radius: 15px;
     padding: 24px;
 }
