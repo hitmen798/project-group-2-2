@@ -1,8 +1,3 @@
-.container {
-  /* width: 100%;
-  padding-left: 20px;
-  padding-right: 20px; */
-}
 .section-our-products {
   padding-bottom: 20px;
 }
@@ -41,8 +36,7 @@
 .our-products-title-item {
   color: var(--orange);
 }
-.our-products-slaider {
-}
+
 .our-products-slaider-item {
   /* justify-content: flex-start; */
   gap: 18px;
@@ -60,8 +54,6 @@
   border-radius: 15px;
 }
 
-.our-products-list-item {
-}
 .our-products-pictures {
   display: block;
   width: 230px;
