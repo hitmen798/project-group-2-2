@@ -12,7 +12,9 @@
   color: var(--primary-text-color);
   margin-bottom: 74px;
 }
-
+.tel-input.reviews-input-tel {
+  max-width: 176px;
+}
 .rev-choko-title {
   color: var(--orange);
 }
@@ -183,6 +185,7 @@
 
 .form-input {
   width: 100%;
+  max-width: calc((100%) - 124px / 1);
   height: 45px;
   border: 1.5px solid rgba(17, 17, 17, 0.05);
   border-radius: 8px;
@@ -192,6 +195,17 @@
   font-size: 14px;
   line-height: 1.2;
 }
+/* .tel-input {
+  max-width: calc((263px) - 124px / 1);
+} */
+.reviews-input-tel {
+    /* max-width: 186px; */
+
+  }
+.form-input-rev {
+  max-width: calc((100%) - 48px / 1);
+
+}
 
 .form-input:not(:last-child) {
   margin-bottom: 14px;
@@ -199,13 +213,14 @@
 
 .form-label {
   position: relative;
+  /* display: block; */
 }
 
 .form-label-tel {
   position: absolute;
   color: #000000;
-  left: 50px;
-  top: 0;
+  left: -234px;
+  top: 88px;
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
@@ -213,8 +228,8 @@
 
 .form-icon {
   position: absolute;
-  left: 18px;
-  top: -2px;
+  left: -280px;
+  top: 84px;
 
 }
 
@@ -222,8 +237,10 @@
   padding-left: 106px;
 }
 
+
+
 .text-area {
-  width: 100%;
+  width: calc((100%) - 48px / 1);
   height: 91px;
   border-radius: 8px;
   resize: none;

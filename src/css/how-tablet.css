@@ -43,6 +43,7 @@
       border-radius: 15px;
       background-image: url(../img/tablet-img/how-its-made-tablet-1x.jpg);
       margin-bottom: 20px;
+      background-size: cover;
     }
   }
   @media (min-device-pixel-ratio: 2),
@@ -61,6 +62,7 @@
       border-radius: 15px;
       background-image: url(../img/tablet-img/how-its-made-tablet-2x.jpg);
       margin-bottom: 20px;
+      background-size: cover;
     }
   }
   .how-content {

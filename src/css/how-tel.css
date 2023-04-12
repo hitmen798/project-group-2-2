@@ -43,6 +43,7 @@
       border-radius: 15px;
       background-image: url(../img/mobile-img/how-its-made-mobile-1x.jpg);
       margin-bottom: 20px;
+      background-size: cover;
     }
   }
   @media (min-device-pixel-ratio: 2),
@@ -61,6 +62,7 @@
       border-radius: 15px;
       background-image: url(../img/mobile-img/how-its-made-mobile-2x.jpg);
       margin-bottom: 20px;
+      background-size: cover;
     }
   }
   .how-content {
