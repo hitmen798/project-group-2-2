@@ -49,4 +49,11 @@ screen and (min-resolution: 2dppx) and (min-width: 376px) {
         margin-left: 14px;
         border: solid 8px #FFFFFF;
     }
+
+    .hero-scroll-link:hover .hero-scroll-svg,
+    .hero-scroll-link:focus .hero-scroll-svg {
+        fill: #FFFFFF;
+        background-color: #FD9222;
+        border: solid 8px #FD9222;
+    }
 }
