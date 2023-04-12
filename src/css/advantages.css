@@ -56,7 +56,7 @@
 
 .backdrop-buy {
     position: fixed;
-    top: 80px;
+    top: 0;
     width: 100%;
     height: 100%;
 }
@@ -72,7 +72,7 @@
     transform: translate(-50%, -50%);
     max-width: 311px;
     min-height: 994px;
-    background-color: var(--background-color);
+    background-color: var(--white);
     border-radius: 15px;
     padding: 24px;
 }
@@ -84,7 +84,7 @@
     position: absolute;
     top: 24px;
     right: 24px;
-    background-color: var(--background-color);
+    background-color: var(--white);
 }
 .modal-buy-close:is(:hover,:focus) {
     background-color: var(--btn-light-orange);
@@ -131,7 +131,7 @@
     height: 29px;
     border: 1px solid rgba(17, 17, 17, 0.1);
     border-radius: 100px;
-    background-color: var(--background-color);
+    background-color: var(--white);
     margin-top: 20px;
     margin-right: 16px;
 }
@@ -156,13 +156,12 @@
     width: 100%;
     height: 66px;
     border: 1.5px solid rgba(17, 17, 17, 0.05);
-    /* filter: drop-shadow(0px 5.44492px 5.44492px rgba(0, 0, 0, 0.03)); */
     border-radius: 13px;
     margin-top: 8px;
     margin-bottom: 18px;
     font-size: 18px;
     outline: none;
-    background-color: var(--background-color);
+    background-color: var(--white);
 }
 
 input::placeholder {
@@ -179,7 +178,7 @@ input::placeholder {
     margin-bottom: 18px;
     padding-left: 106px;
     font-size: 18px;
-    background-color: var(--background-color);
+    background-color: var(--white);
 }
 
 .modal-buy-input-text {
@@ -226,7 +225,7 @@ input::placeholder {
     line-height: 1.22;
     color: rgba(64, 64, 64, 0.3);
     margin-top: 8px;
-    background-color: var(--background-color);
+    background-color: var(--white);
 }
 textarea::placeholder {
     padding-top: 24px;

@@ -20,13 +20,13 @@
 
   .backdrop-buy {
     position: fixed;
-    top: 80px;
+    top: 0;
     width: 100%;
     height: 100%;
   }
   .modal-buy {
-        max-width: 609px;
-        height: 1058px;
+        width: 609px;
+        height: auto;
         padding: 48px;
     }
     .modal-buy-title {
