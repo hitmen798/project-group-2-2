@@ -21,4 +21,16 @@
         border: 1px solid rgba(255, 255, 255, 0.5);
         transform: rotate(90deg);
     }
+
+    .modal-buy {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 609px;
+    min-height: 1058px;
+    background-color: var(--white);
+    border-radius: 15px;
+    padding: 48px;
+}
 }
