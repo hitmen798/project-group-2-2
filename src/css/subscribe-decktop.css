@@ -17,7 +17,7 @@
 
 
     .subscribe-tittle {
-        width: 378px;
+        max-width: 378px;
         height: 56px;
         font-weight: 600;
         font-size: 24px;
@@ -25,7 +25,7 @@
     }
 
     .subscribe-subtitle {
-        width: 467px;
+        max-width: 467px;
     }
 
     .sub-modal-form {

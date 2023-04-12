@@ -14,13 +14,13 @@
     }
 
     .subscripe-title {
-        width: 291px;
+        max-width: 291px;
         height: 48px;
         font-size: 20px;
     }
 
     .subscribe-subtitle {
-        width: 326px;
+        max-width: 326px;
     }
 
 
