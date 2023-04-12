@@ -57,8 +57,10 @@
 .backdrop-buy {
     position: fixed;
     top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
+    z-index: 1;
 }
 .is-hidden {
     opacity: 0;
@@ -127,7 +129,7 @@
 }
 
 .buy-border-card {
-    width: 70px;
+    width: 73px;
     height: 29px;
     border: 1px solid rgba(17, 17, 17, 0.1);
     border-radius: 100px;
@@ -151,6 +153,11 @@
     width: 84px;
     height: 69px;
 }
+
+.modal-buy-form {
+    width: 263px;
+}
+
 .modal-buy-input,
 .modal-buy-input-info {
     width: 100%;
@@ -169,10 +176,9 @@ input::placeholder {
 }
 
 .modal-buy-input-phone {
-    width: 207px;
+    width: 160px;
     height: 66px;
     border: 1.5px solid rgba(17, 17, 17, 0.05);
-    filter: drop-shadow(0px 5.44492px 5.44492px rgba(0, 0, 0, 0.03));
     border-radius: 13px;
     margin-top: 8px;
     margin-bottom: 18px;
@@ -193,7 +199,7 @@ input::placeholder {
 .modal-buy-input-icon {
     position: absolute;
     top: 44px;
-    left: 24px;
+    left: 18px;
 }
 
 .modal-span-input {
@@ -202,7 +208,7 @@ input::placeholder {
     font-weight: 500;
     font-size: 18px;
     top: 50px;
-    left: 74px;
+    left: 65px;
 }
 
 .modal-buy-icon-card {

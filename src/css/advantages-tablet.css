@@ -25,8 +25,8 @@
     height: 100%;
   }
   .modal-buy {
-        width: 609px;
-        height: auto;
+        max-width: 609px;
+        height: 1058px;
         padding: 48px;
     }
     .modal-buy-title {
@@ -36,7 +36,8 @@
     .modal-buy-mobile {
       display: flex;
       flex-wrap: wrap;
-      flex-direction: row;
+      /* flex-direction: row; */
+      justify-content: space-around;
     }
     .modal-buy-list {
       width: 513px;
@@ -47,27 +48,29 @@
       padding: 0px;
       gap: 16px;
       margin-bottom: 40px;
+      margin-right: 0;
     }
     .modal-buy-card {
-        width: 100%;
+        width: 160px;
         height: 196px;
-        margin-left: 32px;
+        margin-right: 0;
+        /* margin-left: 32px; */
     }
     .modal-buy-img {
       margin: 24px 20px 20px 14px;
-      width: 120px;
+      width: 100%;
       height: 107px;
     }
     .modal-buy-img-dark {
       margin: 20px 20px 20px 14px;
-      width: 120px;
+      width: 100%;
       height: 111px;
     }
     .buy-border-card {
         width: 96px;
         height: 33px;
-        margin-left: 32px;
         margin-top: 0;
+        margin-right: 0;
     }
     .buy-border-text {
       padding-top: 8px;
@@ -78,9 +81,26 @@
         flex-flow: row;
         column-gap: 21px;
     }
+    .modal-buy-form {
+      width: 513px;
+    }
+    .modal-buy-input,
+    .modal-buy-input-info {
+      width: 100%;
+      height: 66px;
+    }
     .modal-buy-input-phone {
-      width: 435px;
+      width: 340px;
       padding-left: 177px;
+    }
+    .modal-buy-input-icon {
+      left: 24px;
+    }
+    .modal-span-input {
+      left: 74px;
+    }
+    .modal-buy-comment {
+      width: 100%;
     }
     .modal-buy-btn {
         width: 133px;
