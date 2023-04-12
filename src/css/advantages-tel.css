@@ -5,6 +5,18 @@
     .advantages-text {
         width: 295px;
     }
+
+    .modal-buy {
+    position: absolute;
+    top: 70%;
+    left: 38%;
+    transform: translate(-50%, -50%);
+    max-width: 311px;
+    min-height: 994px;
+    background-color: var(--white);
+    border-radius: 15px;
+    padding: 24px;
+}
     .modal-buy-form {
         width: 263px;
     }

@@ -25,9 +25,15 @@
     height: 100%;
   }
   .modal-buy {
-        max-width: 609px;
-        height: 1058px;
-        padding: 48px;
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 609px;
+    min-height: 1058px;
+    background-color: var(--white);
+    border-radius: 15px;
+    padding: 48px;
     }
     .modal-buy-title {
         font-size: 24px;
@@ -54,7 +60,6 @@
         width: 160px;
         height: 196px;
         margin-right: 0;
-        /* margin-left: 32px; */
     }
     .modal-buy-img {
       margin: 24px 20px 20px 14px;

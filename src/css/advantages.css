@@ -69,8 +69,8 @@
 }
 .modal-buy {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 70%;
+    left: 33%;
     transform: translate(-50%, -50%);
     max-width: 311px;
     min-height: 994px;
