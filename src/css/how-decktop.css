@@ -46,8 +46,6 @@
 
       border-radius: 15px;
       background-image: url(../img/desktop-img/how-its-made-desktop-1x.jpg);
-      margin-left: 20px;
-      padding-left: 32px;
     }
   }
   @media (min-device-pixel-ratio: 2),
@@ -74,7 +72,8 @@
 
     background-color: #ffffff;
     border-radius: 15px;
-    margin-left: 52px;
+    margin-left: 20px;
+    padding-left: 32px;
   }
   .how-subject {
     font-family: 'Montserrat';
